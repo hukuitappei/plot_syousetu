@@ -1,0 +1,45 @@
+
+# Cursor indexing ignore file
+# Files and directories to exclude from automatic indexing
+
+# SpecStory auto-save files (but allow explicit context inclusion via @ references)
+.specstory/**
+
+# Common development files to ignore
+node_modules/
+.git/
+.vscode/
+.idea/
+*.log
+*.tmp
+*.temp
+
+# Build and cache directories
+dist/
+build/
+.cache/
+.next/
+.nuxt/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+
+# Large data files that don't need indexing
+*.csv
+*.json
+*.xml
+*.sql
+*.dump
